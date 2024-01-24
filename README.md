@@ -390,11 +390,13 @@ func jmClient(didErrorOccured error: JMMeetingError) {
 
 ## Run Project
 
-Run `pod install --repo-update` command. Open `JioMeetVideoKYCSDKDemo.xcworkspace` file.
+Go to `JioMeetVideoeKYCSample` folder, Run `pod install --repo-update` command. Open `JioMeetVideoeKYCSample.xcworkspace` file.
 
 ## Reference Classes
 
 Please check `MeetingScreenViewController` class for integration reference.
+
+**Please note, sample action button is for demo and simulation. In real world application, you will need websocket or Firebase or any other service for real time communication for calling eKYC related method from a remote agent.**
 
 ## Troubleshooting
 
