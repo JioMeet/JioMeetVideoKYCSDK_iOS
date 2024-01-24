@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0F201858DC64CCE60C874D3 /* Pods_JioMeetVideoeKYCSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E598280AD3A3089B4B942A5F /* Pods_JioMeetVideoeKYCSample.framework */; };
+		EBE2D9B02B6119CF0056A808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9AF2B6119CF0056A808 /* AppDelegate.swift */; };
+		EBE2D9B22B6119CF0056A808 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9B12B6119CF0056A808 /* SceneDelegate.swift */; };
+		EBE2D9B42B6119CF0056A808 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9B32B6119CF0056A808 /* ViewController.swift */; };
+		EBE2D9B72B6119CF0056A808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE2D9B52B6119CF0056A808 /* Main.storyboard */; };
+		EBE2D9B92B6119D10056A808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE2D9B82B6119D10056A808 /* Assets.xcassets */; };
+		EBE2D9BC2B6119D10056A808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE2D9BA2B6119D10056A808 /* LaunchScreen.storyboard */; };
+		EBE2D9C82B611AA10056A808 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9C72B611AA10056A808 /* UIColor+Extension.swift */; };
+		EBE2D9CA2B611AAD0056A808 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9C92B611AAD0056A808 /* UIView+Extension.swift */; };
+		EBE2D9CC2B611ABB0056A808 /* AVFoundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9CB2B611ABB0056A808 /* AVFoundation+Extension.swift */; };
+		EBE2D9CE2B611B5C0056A808 /* MeetingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9CD2B611B5C0056A808 /* MeetingScreenViewController.swift */; };
+		EBE2D9D02B611B6F0056A808 /* JoinMeetingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9CF2B611B6F0056A808 /* JoinMeetingScreenViewController.swift */; };
+		EBE2D9D22B611B820056A808 /* JoinInputDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9D12B611B820056A808 /* JoinInputDataView.swift */; };
+		EBE2D9D42B618B100056A808 /* SnapshotResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9D32B618B100056A808 /* SnapshotResultView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0493D107C19E857436D57F76 /* Pods-JioMeetVideoeKYCSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JioMeetVideoeKYCSample.debug.xcconfig"; path = "Target Support Files/Pods-JioMeetVideoeKYCSample/Pods-JioMeetVideoeKYCSample.debug.xcconfig"; sourceTree = "<group>"; };
+		6368A86B76FFDB11AC1840D4 /* Pods-JioMeetVideoeKYCSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JioMeetVideoeKYCSample.release.xcconfig"; path = "Target Support Files/Pods-JioMeetVideoeKYCSample/Pods-JioMeetVideoeKYCSample.release.xcconfig"; sourceTree = "<group>"; };
+		E598280AD3A3089B4B942A5F /* Pods_JioMeetVideoeKYCSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JioMeetVideoeKYCSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE2D9AC2B6119CF0056A808 /* JioMeetVideoeKYCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JioMeetVideoeKYCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE2D9AF2B6119CF0056A808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBE2D9B12B6119CF0056A808 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBE2D9B32B6119CF0056A808 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBE2D9B62B6119CF0056A808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBE2D9B82B6119D10056A808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE2D9BB2B6119D10056A808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBE2D9BD2B6119D10056A808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE2D9C72B611AA10056A808 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		EBE2D9C92B611AAD0056A808 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		EBE2D9CB2B611ABB0056A808 /* AVFoundation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVFoundation+Extension.swift"; sourceTree = "<group>"; };
+		EBE2D9CD2B611B5C0056A808 /* MeetingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingScreenViewController.swift; sourceTree = "<group>"; };
+		EBE2D9CF2B611B6F0056A808 /* JoinMeetingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinMeetingScreenViewController.swift; sourceTree = "<group>"; };
+		EBE2D9D12B611B820056A808 /* JoinInputDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinInputDataView.swift; sourceTree = "<group>"; };
+		EBE2D9D32B618B100056A808 /* SnapshotResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotResultView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE2D9A92B6119CF0056A808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F201858DC64CCE60C874D3 /* Pods_JioMeetVideoeKYCSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1294FA188887488A37D3A55D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0493D107C19E857436D57F76 /* Pods-JioMeetVideoeKYCSample.debug.xcconfig */,
+				6368A86B76FFDB11AC1840D4 /* Pods-JioMeetVideoeKYCSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		541F14EABF5C7D333A60FB17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E598280AD3A3089B4B942A5F /* Pods_JioMeetVideoeKYCSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBE2D9A32B6119CF0056A808 = {
+			isa = PBXGroup;
+			children = (
+				EBE2D9AE2B6119CF0056A808 /* JioMeetVideoeKYCSample */,
+				EBE2D9AD2B6119CF0056A808 /* Products */,
+				1294FA188887488A37D3A55D /* Pods */,
+				541F14EABF5C7D333A60FB17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE2D9AD2B6119CF0056A808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2D9AC2B6119CF0056A808 /* JioMeetVideoeKYCSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE2D9AE2B6119CF0056A808 /* JioMeetVideoeKYCSample */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2D9C42B611A670056A808 /* UI Screens */,
+				EBE2D9C32B611A610056A808 /* Extensions */,
+				EBE2D9AF2B6119CF0056A808 /* AppDelegate.swift */,
+				EBE2D9B12B6119CF0056A808 /* SceneDelegate.swift */,
+				EBE2D9B32B6119CF0056A808 /* ViewController.swift */,
+				EBE2D9B52B6119CF0056A808 /* Main.storyboard */,
+				EBE2D9B82B6119D10056A808 /* Assets.xcassets */,
+				EBE2D9BA2B6119D10056A808 /* LaunchScreen.storyboard */,
+				EBE2D9BD2B6119D10056A808 /* Info.plist */,
+			);
+			path = JioMeetVideoeKYCSample;
+			sourceTree = "<group>";
+		};
+		EBE2D9C32B611A610056A808 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2D9C72B611AA10056A808 /* UIColor+Extension.swift */,
+				EBE2D9C92B611AAD0056A808 /* UIView+Extension.swift */,
+				EBE2D9CB2B611ABB0056A808 /* AVFoundation+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EBE2D9C42B611A670056A808 /* UI Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2D9C62B611A880056A808 /* Meeting Screen */,
+				EBE2D9C52B611A7E0056A808 /* Join Screen */,
+			);
+			path = "UI Screens";
+			sourceTree = "<group>";
+		};
+		EBE2D9C52B611A7E0056A808 /* Join Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2D9CF2B611B6F0056A808 /* JoinMeetingScreenViewController.swift */,
+				EBE2D9D12B611B820056A808 /* JoinInputDataView.swift */,
+			);
+			path = "Join Screen";
+			sourceTree = "<group>";
+		};
+		EBE2D9C62B611A880056A808 /* Meeting Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2D9CD2B611B5C0056A808 /* MeetingScreenViewController.swift */,
+				EBE2D9D32B618B100056A808 /* SnapshotResultView.swift */,
+			);
+			path = "Meeting Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE2D9AB2B6119CF0056A808 /* JioMeetVideoeKYCSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE2D9C02B6119D10056A808 /* Build configuration list for PBXNativeTarget "JioMeetVideoeKYCSample" */;
+			buildPhases = (
+				65227BB3E65C4413697DFB46 /* [CP] Check Pods Manifest.lock */,
+				EBE2D9A82B6119CF0056A808 /* Sources */,
+				EBE2D9A92B6119CF0056A808 /* Frameworks */,
+				EBE2D9AA2B6119CF0056A808 /* Resources */,
+				17859C4D5CD8ADF0E6C4C75D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JioMeetVideoeKYCSample;
+			productName = JioMeetVideoeKYCSample;
+			productReference = EBE2D9AC2B6119CF0056A808 /* JioMeetVideoeKYCSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE2D9A42B6119CF0056A808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EBE2D9AB2B6119CF0056A808 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = EBE2D9A72B6119CF0056A808 /* Build configuration list for PBXProject "JioMeetVideoeKYCSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE2D9A32B6119CF0056A808;
+			productRefGroup = EBE2D9AD2B6119CF0056A808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE2D9AB2B6119CF0056A808 /* JioMeetVideoeKYCSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE2D9AA2B6119CF0056A808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE2D9BC2B6119D10056A808 /* LaunchScreen.storyboard in Resources */,
+				EBE2D9B92B6119D10056A808 /* Assets.xcassets in Resources */,
+				EBE2D9B72B6119CF0056A808 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17859C4D5CD8ADF0E6C4C75D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JioMeetVideoeKYCSample/Pods-JioMeetVideoeKYCSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JioMeetVideoeKYCSample/Pods-JioMeetVideoeKYCSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JioMeetVideoeKYCSample/Pods-JioMeetVideoeKYCSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65227BB3E65C4413697DFB46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JioMeetVideoeKYCSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE2D9A82B6119CF0056A808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE2D9D02B611B6F0056A808 /* JoinMeetingScreenViewController.swift in Sources */,
+				EBE2D9B42B6119CF0056A808 /* ViewController.swift in Sources */,
+				EBE2D9CC2B611ABB0056A808 /* AVFoundation+Extension.swift in Sources */,
+				EBE2D9D42B618B100056A808 /* SnapshotResultView.swift in Sources */,
+				EBE2D9CE2B611B5C0056A808 /* MeetingScreenViewController.swift in Sources */,
+				EBE2D9B02B6119CF0056A808 /* AppDelegate.swift in Sources */,
+				EBE2D9B22B6119CF0056A808 /* SceneDelegate.swift in Sources */,
+				EBE2D9D22B611B820056A808 /* JoinInputDataView.swift in Sources */,
+				EBE2D9CA2B611AAD0056A808 /* UIView+Extension.swift in Sources */,
+				EBE2D9C82B611AA10056A808 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBE2D9B52B6119CF0056A808 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE2D9B62B6119CF0056A808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE2D9BA2B6119D10056A808 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE2D9BB2B6119D10056A808 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBE2D9BE2B6119D10056A808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBE2D9BF2B6119D10056A808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE2D9C12B6119D10056A808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0493D107C19E857436D57F76 /* Pods-JioMeetVideoeKYCSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PVH2NGH42;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JioMeetVideoeKYCSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.jiomeet.JioMeetVideoeKYCSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBE2D9C22B6119D10056A808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6368A86B76FFDB11AC1840D4 /* Pods-JioMeetVideoeKYCSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PVH2NGH42;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JioMeetVideoeKYCSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.jiomeet.JioMeetVideoeKYCSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE2D9A72B6119CF0056A808 /* Build configuration list for PBXProject "JioMeetVideoeKYCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE2D9BE2B6119D10056A808 /* Debug */,
+				EBE2D9BF2B6119D10056A808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE2D9C02B6119D10056A808 /* Build configuration list for PBXNativeTarget "JioMeetVideoeKYCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE2D9C12B6119D10056A808 /* Debug */,
+				EBE2D9C22B6119D10056A808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBE2D9A42B6119CF0056A808 /* Project object */;
+}
