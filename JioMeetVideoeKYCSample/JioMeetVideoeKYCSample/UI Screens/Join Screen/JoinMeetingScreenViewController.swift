@@ -33,9 +33,9 @@ class JoinMeetingScreenViewController: UIViewController {
 		arrangeAllSubViews()
 		configureSubViewsLayouts()
 		
-		meetingIdInputView.updateTextFieldText("2522452303")
-		meetingPinInputView.updateTextFieldText("B3Npt")
-		userNameInputView.updateTextFieldText("John")
+		meetingIdInputView.updateTextFieldText("")
+		meetingPinInputView.updateTextFieldText("")
+		userNameInputView.updateTextFieldText("")
     }
 }
 
@@ -93,9 +93,9 @@ extension JoinMeetingScreenViewController {
 	private func joinMeeting() {
 		
 		let meetingViewController = MeetingScreenViewController()
-		// meetingViewController.meetingId = meetingIdInputView.getText()
-		// meetingViewController.meetingPin = meetingPinInputView.getText()
-		// meetingViewController.userDisplayName = userNameInputView.getText()
+		meetingViewController.meetingId = meetingIdInputView.getText()
+		meetingViewController.meetingPin = meetingPinInputView.getText()
+		meetingViewController.userDisplayName = userNameInputView.getText()
 		navigationController?.pushViewController(meetingViewController, animated: true)
 	}
 }

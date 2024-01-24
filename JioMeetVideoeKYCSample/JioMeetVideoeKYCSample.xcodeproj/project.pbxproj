@@ -20,6 +20,7 @@
 		EBE2D9CE2B611B5C0056A808 /* MeetingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9CD2B611B5C0056A808 /* MeetingScreenViewController.swift */; };
 		EBE2D9D02B611B6F0056A808 /* JoinMeetingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9CF2B611B6F0056A808 /* JoinMeetingScreenViewController.swift */; };
 		EBE2D9D22B611B820056A808 /* JoinInputDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9D12B611B820056A808 /* JoinInputDataView.swift */; };
+		EBE2D9D42B618B100056A808 /* SnapshotResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9D32B618B100056A808 /* SnapshotResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EBE2D9CD2B611B5C0056A808 /* MeetingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingScreenViewController.swift; sourceTree = "<group>"; };
 		EBE2D9CF2B611B6F0056A808 /* JoinMeetingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinMeetingScreenViewController.swift; sourceTree = "<group>"; };
 		EBE2D9D12B611B820056A808 /* JoinInputDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinInputDataView.swift; sourceTree = "<group>"; };
+		EBE2D9D32B618B100056A808 /* SnapshotResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,6 @@
 				0493D107C19E857436D57F76 /* Pods-JioMeetVideoeKYCSample.debug.xcconfig */,
 				6368A86B76FFDB11AC1840D4 /* Pods-JioMeetVideoeKYCSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				EBE2D9CD2B611B5C0056A808 /* MeetingScreenViewController.swift */,
+				EBE2D9D32B618B100056A808 /* SnapshotResultView.swift */,
 			);
 			path = "Meeting Screen";
 			sourceTree = "<group>";
@@ -153,6 +155,7 @@
 				EBE2D9A82B6119CF0056A808 /* Sources */,
 				EBE2D9A92B6119CF0056A808 /* Frameworks */,
 				EBE2D9AA2B6119CF0056A808 /* Resources */,
+				17859C4D5CD8ADF0E6C4C75D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +213,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		17859C4D5CD8ADF0E6C4C75D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JioMeetVideoeKYCSample/Pods-JioMeetVideoeKYCSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JioMeetVideoeKYCSample/Pods-JioMeetVideoeKYCSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JioMeetVideoeKYCSample/Pods-JioMeetVideoeKYCSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		65227BB3E65C4413697DFB46 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +262,7 @@
 				EBE2D9D02B611B6F0056A808 /* JoinMeetingScreenViewController.swift in Sources */,
 				EBE2D9B42B6119CF0056A808 /* ViewController.swift in Sources */,
 				EBE2D9CC2B611ABB0056A808 /* AVFoundation+Extension.swift in Sources */,
+				EBE2D9D42B618B100056A808 /* SnapshotResultView.swift in Sources */,
 				EBE2D9CE2B611B5C0056A808 /* MeetingScreenViewController.swift in Sources */,
 				EBE2D9B02B6119CF0056A808 /* AppDelegate.swift in Sources */,
 				EBE2D9B22B6119CF0056A808 /* SceneDelegate.swift in Sources */,
@@ -401,6 +422,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8PVH2NGH42;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JioMeetVideoeKYCSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -430,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8PVH2NGH42;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JioMeetVideoeKYCSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
